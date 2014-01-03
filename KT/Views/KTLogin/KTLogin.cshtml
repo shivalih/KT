@@ -1,50 +1,40 @@
 ﻿@model KT.Models.KTLoginModel
 
-@using (Html.BeginForm())
-{
-    <table id="container" height="100%" width="100%">
-        <tr>
-            <td span="2">
-                <h4>Login to Kannada Talkies</h4>
-            </td>
-        </tr>
-        <tr border="1px">
-            <td>
-                <table id="login">
-                    <tr>
-                        <td>
-                            <table id="controls">
-                                <tr>
-                                    <td></td>
-                                    <td align="left">
-                                        Sign in with your KT account
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td> </td>
-                                    <td>@Html.TextBox("txtEmail")</td>
-                                </tr>
-                                <tr>
-                                    <td>Password : </td>
-                                    <td>@Html.TextBox("txtPassword")</td>
-                                </tr>
-                                <tr>
-                                    <td valign="bottom">
-                                        Social SignIn
-                                    </td>
-                                    <td align="right">
-                                        <input type="button" id="login" value="Login" />
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <!-- slider -->
-            </td>
-        </tr>
-    </table>
-}
-
+<table id="container" height="100%" width="100%">
+    <tr>
+        <td span="2">
+            <h4>Login to Kannada Talkies</h4>
+        </td>
+    </tr>
+    <tr border="1px">
+        <td>
+            <table id="login">
+                <tr>
+                    <td></td>
+                    <td align="left">
+                        Sign in with your KT account
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email : </td>
+                    <td>@Html.TextBox("txtEmail")</td>
+                </tr>
+                <tr>
+                    <td>Password : </td>
+                    <td>@Html.Password("txtPassword")</td>
+                </tr>
+                <tr>
+                    <td valign="bottom">
+                        Social SignIn
+                    </td>
+                    <td align="right">
+                        <input type="button" id="login" value="Login" />
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <!-- slider -->
+        </td>
+    </tr>
+</table>
