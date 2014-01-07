@@ -275,6 +275,12 @@
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\KTScripts\slider.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Tools\ColorPicker\DCPicker\CHunter.exe" />
+    <Content Include="Tools\ColorPicker\DCPicker\Favorite\Web safe color.txt" />
+    <Content Include="Tools\CSS3Pie\v1\PIE.htc" />
+    <Content Include="Tools\CSS3Pie\v1\PIE.js" />
+    <Content Include="Tools\CSS3Pie\v1\PIE_uncompressed.htc" />
+    <Content Include="Tools\CSS3Pie\v1\PIE_uncompressed.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -315,6 +321,12 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\KTLogin\KTLogin.cshtml" />
+    <Content Include="Tools\CSS3Pie\PIE-1.0.0.zip" />
+    <Content Include="Tools\CSS3Pie\v1\PIE.php" />
+    <Content Include="Tools\ColorPicker\chunter_en.zip" />
+    <Content Include="Tools\ColorPicker\DCPicker\CHunter.chm" />
+    <Content Include="Tools\ColorPicker\DCPicker\CHunter.ini" />
+    <Content Include="Tools\ColorPicker\DCPicker\Language.ini" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
