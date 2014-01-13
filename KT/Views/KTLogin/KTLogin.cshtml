@@ -1,35 +1,38 @@
 ﻿@model KT.Models.KTLoginModel
 
-<header class="bold">
-    Login to Kannada Talkies
+<head>
+    <title></title>
+    @Styles.Render("~/Content/KTcss")
+</head>
+<header class="ktBody">
+    <section class="ktHeader ktBody"></section>
+    <span class="bold-h1"> Login to Kannada Talkies</span>
 </header>
-<section class="sectionLeft borderRight ktBody">
-    <fieldset>
-        <ol>
-            <li>
-                Sign in with your KT account
-            </li>
-            <li>
-                @Html.Label("Email")
-                @Html.TextBox("txtEmail")
-            </li>
-            <li>
-                @Html.Label("Password")
-                @Html.TextBox("txtPassword")
-            </li>
-        </ol>
-        <ol class="listHorizontal">
-            <li class="alignLeft">
-                <input class="ktButton" type="button" value="Social SignIn ^" />
-            </li>
-            <li class="alignRight">
-                <input class="ktButton"type="button" value="Log In.." />
-            </li>
-        </ol>
-    </fieldset>
-</section>
-<section class="sectionLeft borderLeft imageContainer">
-    <img src="~/Images/Photos/Harish2.JPG" alt="Test Image" width="550" height="245" />
-    <div class="sliderArrowRight"></div>
-    <div class="sliderArrowLeft"></div>
-</section>
+
+    <section class="sectionLeft borderRight ktBody">
+        <fieldset>
+            <ol>
+                <li>
+                    @Html.Label("Email")
+                    @Html.TextBox("txtEmail")
+                </li>
+                <li>
+                    @Html.Label("Password")
+                    @Html.TextBox("txtPassword")
+                </li>
+            </ol>
+            <ol class="listHorizontal">
+                <li class="alignLeft">
+                    <input class="ktButton" type="button" value="Social SignIn ^" />
+                </li>
+                <li class="alignRight">
+                    <input class="ktButton" type="button" value="Log In.." />
+                </li>
+            </ol>
+        </fieldset>
+    </section>
+    <section class="sectionLeft borderLeft imageContainer ktBody">
+        <img src="" alt="Test Image" width="550" height="245" />
+        <div class="sliderArrowRight"></div>
+        <div class="sliderArrowLeft"></div>
+    </section>

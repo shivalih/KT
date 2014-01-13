@@ -15,7 +15,7 @@ namespace KT.Controllers
             model.Email = "Enter your email id here";
             model.Password = "Enter Password";
 
-            return View(model);
+            return PartialView(model);
         }
     }
 }
